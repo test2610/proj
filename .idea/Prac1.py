@@ -1,11 +1,11 @@
 import json
 
 person={
-    "name":"Simran",
+    "name":"JACK",
     "age":22
 }
 
-with open("info.json", "ri") as f:
+with open("info.json", "r") as f:
     json.dump(person, f)
 
 with open("info.json", "r") as f:
