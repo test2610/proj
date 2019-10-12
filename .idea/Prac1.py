@@ -5,7 +5,7 @@ person={
     "age":22
 }
 
-with open("info.json", "r") as f:
+with open("info.json", "ri") as f:
     json.dump(person, f)
 
 with open("info.json", "r") as f:
